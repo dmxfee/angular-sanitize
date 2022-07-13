@@ -1,3 +1,18 @@
+# angular-sanitize Fork
+  
+`angular-sanitize` is published as a separate [NPM package](https://www.npmjs.com/package/angular-sanitize) with package binaries compiled from source sode in main [angular.js repo](https://github.com/angular/angular.js).
+
+We use a forked version of [angular.js](https://github.com/dmxfee/angular.js) (please see the details of the fork in [README.md](https://github.com/dmxfee/angular.js/blob/dmxfee-master/README.md) file).
+
+We have made some security fixes in the forked [angular.js](https://github.com/dmxfee/angular.js) which include patching `src/ng/sanitizeUri.js` file and the compiled `angular-sanitize.js`, `angular-sanitize.min.js` and `angular-sanitize.min.js.map` are then copied to this repo and published from here.
+
+## Steps to update the files in this repo
+1. Go to forked [angular.js](https://github.com/dmxfee/angular.js) and follow the instructions there to build angular.js.
+2. Copy `angular-sanitize.js`, `angular-sanitize.min.js` and `angular-sanitize.min.js.map` from the build directory to this repo.
+3. Update versions in `bower.json` and `package.json`.
+
+
+
 # packaged angular-sanitize
 
 This repo is for distribution on `npm` and `bower`. The source for this module is in the
