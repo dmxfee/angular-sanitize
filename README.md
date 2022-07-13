@@ -1,6 +1,6 @@
 # angular-sanitize Fork
   
-`angular-sanitize` is published as a separate [NPM package](https://www.npmjs.com/package/angular-sanitize) with package binaries compiled from source sode in main [angular.js repo](https://github.com/angular/angular.js).
+`angular-sanitize` is published as a separate [NPM package](https://www.npmjs.com/package/angular-sanitize) with package binaries compiled from source code in main [angular.js repo](https://github.com/angular/angular.js).
 
 We use a forked version of [angular.js](https://github.com/dmxfee/angular.js) (please see the details of the fork in [README.md](https://github.com/dmxfee/angular.js/blob/dmxfee-master/README.md) file).
 
